@@ -16,5 +16,5 @@ jobs:
           # to the issue
           project-url: https://github.com/users/dorodango-maker/projects/2
           github-token: ${{ secrets.ACTIONS_PROJECTS }}
-          labeled: bug, question
+          labeled: "${{ ':bug: bug' }}, ${{ ':question: question' }}"
           label-operator: OR
